@@ -38,10 +38,29 @@
 }
 
 h1{
-  font-size:2 rem;
+  font-size:3rem;
   color:#FA8072
 }
 
 h2{
   color:#F4B3A5;
+}
+  .avatar-img{
+    max-width:80%;
+    padding:5%;
+
+  }
+  .followers{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    margin:2%;
+    border: 2px solid #FA8072;
+    text-align: center;
+    
+
+  }
+p{
+  color:#F4B3A5;
+  font-size: 2rem;
 }

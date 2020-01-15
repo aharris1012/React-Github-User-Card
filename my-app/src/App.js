@@ -48,16 +48,18 @@ componentDidMount(){
 
 render(){
     return (
-      <div className="user">
+      <div className="App-header">
+        <h2>MY FOLLOWERS</h2>
         {this.state.followers.map(follower => {
                return (
                  
                  <div className = 'followers'> 
+                 
                  <img src = {follower.avatar_url} className = 'avatar-img' />
                   <div className = 'info'>
-                    <p>{follower.name}</p>
+                    <p>User Name:{follower.name}</p>
                     <p> {follower.login}</p>
-                    <p>{follower.html_url}</p>
+                    
                     <p>{follower.location}</p>
                   </div>
                    
